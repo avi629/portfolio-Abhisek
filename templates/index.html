@@ -1,0 +1,164 @@
+{% extends "base.html" %}
+
+{% block content %}
+<section class="hero" id="about">
+    <div class="hero-text">
+        <h1>Hi, I'm <span>Abhisek Sahu</span></h1>
+        <h2>Aspiring Software Developer</h2>
+        <p>
+            Aspiring Software Developer with strong foundations in computer science and
+            hands-on experience in building full‑stack applications. Skilled in
+            problem‑solving, modern web technologies, and database management. Seeking
+            an opportunity to contribute to innovative projects while continuously
+            enhancing technical expertise.
+        </p>
+        <div class="hero-links">
+            <a href="https://www.linkedin.com/in/abhisek-sahu-a287012ba" target="_blank">LinkedIn</a>
+            <a href="https://github.com/avi629" target="_blank">GitHub</a>
+        </div>
+    </div>
+    <div class="hero-info">
+        <div class="info-card">
+            <h3>Location</h3>
+            <p>Bhubaneswar, Odisha, India</p>
+        </div>
+        <div class="info-card">
+            <h3>Contact</h3>
+            <p>Phone: 8249510265</p>
+            <p>Email: abhiseks529@gmail.com</p>
+        </div>
+    </div>
+</section>
+
+<section class="section" id="education">
+    <h2>Education</h2>
+    <div class="timeline">
+
+        <div class="timeline-item">
+            <h3>Master of Computer Applications</h3>
+            <p class="timeline-meta">College of IT & Management Education, Bhubaneswar | 2023 - 2025</p>
+
+        </div>
+
+        <div class="timeline-item">
+            <h3>B.Sc. (Computer Science) – 82%</h3>
+            <p class="timeline-meta">North Odisha University, Baripada | 2020 - 2023</p>
+        </div>
+
+        <div class="timeline-item">
+            <h3>CHSE – 64%</h3>
+            <p class="timeline-meta">Royal College of Science and Technology, Bhubaneswar | 2017 - 2019</p>
+        </div>
+
+        <div class="timeline-item">
+            <h3>BSE – 77.8%</h3>
+            <p class="timeline-meta">Chhamunda GP High School, Chhamunda, Keonjhar | 2017</p>
+        </div>
+
+    </div>
+</section>
+
+<section class="section" id="skills">
+    <h2>Technical Skills</h2>
+    <div class="skills-grid">
+        <div class="skills-card">
+            <h3>Languages</h3>
+            <p>C, Java, Python</p>
+        </div>
+        <div class="skills-card">
+            <h3>Web Technologies</h3>
+            <p>HTML, CSS, JavaScript</p>
+        </div>
+        <div class="skills-card">
+            <h3>Databases</h3>
+            <p>MySQL</p>
+        </div>
+        <div class="skills-card">
+            <h3>Tools</h3>
+            <p>Git, GitHub, VS Code, Jupyter Notebook, Excel, Power BI</p>
+        </div>
+        <div class="skills-card">
+            <h3>Core Concepts</h3>
+            <p>OOPs, Data Structures & Algorithms, SDLC, Operating Systems</p>
+        </div>
+        <div class="skills-card">
+            <h3>Cloud Basics</h3>
+            <p>Basics of AWS / Azure / GCP, IaaS, PaaS, SaaS</p>
+        </div>
+    </div>
+
+    <h2 class="subheading">Communication</h2>
+    <p>English, Hindi, Odia</p>
+
+    <h2 class="subheading">Hobbies & Interests</h2>
+    <p>Traveling, Chess, Photography</p>
+</section>
+
+<section class="section" id="projects">
+    <h2>Projects</h2>
+    <div class="projects-grid">
+
+        <!-- Hotel Booking Website with your real project link -->
+        <div class="project-card">
+            <h3>
+                <a href="https://hotel-bookingapp-website-1.onrender.com"
+                   target="_blank"
+                   rel="noopener noreferrer">
+                    Hotel Booking Website
+                </a>
+            </h3>
+            <p>
+                Built a full‑stack web application with features like room availability search,
+                user registration, and booking confirmation.
+            </p>
+            <p>
+                Ensured secure transactions and smooth user experience.
+            </p>
+        </div>
+
+        <div class="project-card">
+            <h3>Weather Forecast Web Application</h3>
+            <p>
+                Developed a responsive website using HTML, CSS, and JavaScript.
+                Integrated real‑time weather APIs for live forecast display with dynamic UI updates.
+            </p>
+        </div>
+
+        <div class="project-card">
+            <h3>Online Quiz Platform</h3>
+            <p>
+                Engineered an interactive quiz system using Python, MySQL, HTML, CSS, and JavaScript.
+                Enabled subject‑based quizzes with instant result generation and automated performance tracking.
+            </p>
+        </div>
+
+        <div class="project-card">
+            <h3>Library Management System</h3>
+            <p>
+                Designed a Java‑based desktop application with MySQL integration.
+                Implemented book issuing/returning, due date management, and report generation
+                for efficient library administration.
+            </p>
+        </div>
+
+    </div>
+</section>
+
+<section class="section" id="contact">
+    <h2>Contact</h2>
+    <div class="contact-container">
+        <div class="contact-info">
+            <p><strong>Phone:</strong> 8249510265</p>
+            <p><strong>Email:</strong> <a href="mailto:abhiseks529@gmail.com">abhiseks529@gmail.com</a></p>
+            <p><strong>LinkedIn:</strong> <a href="https://www.linkedin.com/in/abhisek-sahu-a287012ba" target="_blank">/in/abhisek-sahu-a287012ba</a></p>
+            <p><strong>GitHub:</strong> <a href="https://github.com/avi629" target="_blank">github.com/avi629</a></p>
+        </div>
+        <form class="contact-form">
+            <input type="text" placeholder="Your Name" required />
+            <input type="email" placeholder="Your Email" required />
+            <textarea rows="4" placeholder="Your Message" required></textarea>
+            <button type="submit" disabled>Send (Demo Only)</button>
+        </form>
+    </div>
+</section>
+{% endblock %}
